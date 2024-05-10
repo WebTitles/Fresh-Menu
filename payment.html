@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .payment-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    #total-amount {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    #payment-button {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+  <title>Payment Page</title>
+</head>
+<body>
+
+  <div class="payment-container">
+    <h1>Payment Details</h1>
+    <p id="total-amount">Total Amount: $0.00</p>
+    <button id="payment-button" onclick="processPayment()">Proceed to Payment</button>
+  </div>
+
+  <script>
+    function processPayment() {
+      // Fetch the total amount from the URL parameters
+      var urlParams = new URLSearchParams(window.location.search);
+      var totalAmount = parseFloat(urlParams.get('totalAmount')) || 0;
+
+      // Display the total amount on the page
+      document.getElementById('total-amount').textContent = 'Total Amount: $' + totalAmount.toFixed(2);
+
+      // Implement your payment processing logic here
+      // For demonstration purposes, an alert is shown
+      alert('Payment processed successfully!');
+    }
+  </script>
+
+</body>
+</html>

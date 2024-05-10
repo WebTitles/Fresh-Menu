@@ -1,0 +1,2331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Menu</title>
+    <link rel="stylesheet" href="styles.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+
+
+    <div class="nav-bar">
+       
+       <!-- navigation-start -->
+        <nav>
+                <img src="./images/logo2.png"/>
+                <h2><span class="ww">F</span>resh<span class="ww">M</span>enu</h2>
+                
+            
+            <div class="offer-main">
+               
+                <div class="offer">
+                    <div class="offer-first">
+                        <div>
+                            <i class="fa-solid fa-ticket"></i>
+                        </div>
+                        <div class="freshpass">
+                            <a href="#">FreshPass<br><span> Get extra 20% off</span></a>
+                         </div>
+                    </div>
+
+                </div>
+
+
+                <div class="freshclub">
+                    <i class="fa-solid fa-cubes-stacked"></i><a href="#">Try FreshClub</a>
+
+                </div>
+                
+
+                <div class="download">
+                    <a href="#">Download App</a>
+                </div>
+            </div>
+        
+        </nav>
+
+        <!-- navigation-end -->
+
+       
+       
+       
+       
+        <!-- navigation-second-part -->
+        <div class="second">
+            <div class="search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+                <div class="search-box">
+                    <input list="search" placeholder="search">
+                    <datalist id="search">
+                        <option value="Thalis">Thalis</option>
+                        <option value="Sandwiches">Sandwiches</option>
+                        <option value="Bowls">Bowls</option>
+                        <option value="Wraps">Wraps</option>
+                    </datalist>
+                </div>
+            </div>
+
+            <div class="off">
+                <a href="offers.html">Offers</a>
+
+            </div>
+
+
+            <div class="help">
+                <a href="#">Help</a>
+
+            </div>
+
+            <div class="login">
+                <a href="#"><i class="fa-regular fa-address-book"></i></a>
+            </div>
+
+            <div class="shopping">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        
+        </div>
+         <!-- navigation-second-part-end -->
+    </div>
+        
+    
+    <!-- hero-section-image start -->
+    <div class="hero-section">
+       <marquee behavior = "alternate" 
+       onmouseout="start()"
+       onmouseover="stop()">
+       
+            <a href="#" onclick="highlightAndScroll('paragraph2')"><img src="./images/heroimage1.jpg"/></a>
+            <a href="#" onclick="highlightAndScroll('paragraph3')"><img src="./images/heroimage2.jpg"/></a>
+            <a href="#" onclick="highlightAndScroll('paragraph11')"><img src="./images/heroimage3.jpg"/></a>
+            <a href="#" onclick="highlightAndScroll('paragraph5')"><img src="./images/heroimage4.jpg"/></a>
+            <a href="#" onclick="highlightAndScroll('paragraph5')"><img src="./images/hero-image5.jpg"/></a>
+            
+            
+          
+       
+    </marquee>
+    </div>
+    <!-- hero-section-image end -->
+
+
+
+<!-- categories-section start -->
+    <div class="categories">
+        <div class="category">
+            <p>CATEGORIES</p>
+        </div>
+
+        <div class="veg">
+            <a href="#">VEG</a>
+        </div>
+
+        <div class="price">
+            <a href="#">PRICE<i class="fa-solid fa-money-check"></i></a>
+
+        </div>
+        
+        <div class="filter">
+            <a href="#"><i class="fa-solid fa-filter"></i>FILTERS</a>
+        </div>
+
+    
+    </div>
+    <!-- categories-section end -->
+
+
+    <!-- categories-section list start -->
+    <div class="cate-list">
+        <div>
+                <ul>
+                    <li><a href="#" onclick="highlightAndScroll('paragraph1')">Sandwiches</a></li>
+                    <li><a href="#" onclick="highlightAndScroll('paragraph2')">Wraps</a></li>
+                    <li><a href="#" onclick="highlightAndScroll('paragraph3')">Appetizers</a></li>
+                    <li><a href="#" onclick="highlightAndScroll('paragraph4')">Burgers and More</a></li>
+                    <li><a href="#">Bowls</a></li>
+                    <li><a href="#">Superbowls</a></li>
+                    <li><a href="#">Thalis</a></li>
+                    <li><a href="#">Noodles</a></li>
+                    <li><a href="#">Keto Specials</a></li>
+                    <li><a href="#">All day breakfast</a></li>
+                    <li><a href="#">Soups and Salads</a></li>
+                    <li><a href="#" onclick="highlightAndScroll('paragraph5')">Desserts & Beverages</a></li>
+            
+           
+                </ul>
+        </div>
+
+        
+
+        <!-- whole-div section start -->
+        <div class="make"> 
+            <p class="san" id="paragraph1">SANDWICHES</p>
+
+            <!-- first 3 cards start -->
+            <div class="main-sand"> 
+                
+                <!-- first card -->
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand1.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Smoked Chicken Garlic Bread</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 110</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- second card -->
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand1.html"><img class="sand1" src="./images/sand2.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Spinach Corn Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 119</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- third card -->
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand2.html"><img class="sand1" src="./images/sand3.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">FarmHouse Garlic Bread</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 119</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--  first 3 card end  -->
+
+
+
+
+            <!-- second 3 card start -->
+            <div class="main-sand">
+
+                <!-- 4th card -->
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand3.html"><img class="sand1" src="./images/sand4.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Homestyle Chicken Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 129</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 5th card -->
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand4.html"><img class="sand1" src="./images/sand5.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Margherita Garlic Bread</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 119</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 6th card -->
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand5.html"><img class="sand1" src="./images/sand6.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Smokey Chicken and Cheese Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 99</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- second 3 cards end -->
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand6.html"><img class="sand1" src="./images/sand7.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Smokey Chicken and Cheese Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 99</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand7.html"><img class="sand1" src="./images/sand8.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Peri Peri Chicken Tikka Subwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>INDIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand8.html"><img class="sand1" src="./images/sand9.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Fresh Slaw Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 89</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand9.html"><img class="sand1" src="./images/sand10.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Chicken Tikka Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 119</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand10.html"><img class="sand1" src="./images/sand11.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Omelette Cheese Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 119</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand11.html"><img class="sand1" src="./images/sand12.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Paneer Popeye Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand12.html"><img class="sand1" src="./images/sand13.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Morrocon Cottage Cheese Subwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>FUSION</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand14.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Cheese Chutney Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 99</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand15.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Greek Chicken Subwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand16.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Rainbow Club Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand17.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Grilled Pesto Chicken Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 99</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand18.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Grilled Buffalo Chicken Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand19.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Cheesy Corn Mushroom Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand20.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Honey Mustard Chicken Subwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand21.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Classic Chicken with Cheese Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 129</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand22.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Jerk Cottage Cheese Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 99</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand23.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>American Creamy Corn Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 119</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand24.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Citrus Chicken Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 129</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand25.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Mexican Pulled Chicken Whole Wheat Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 129</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand26.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Chicken Tikka Club Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand27.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Cheesy Chicken Club Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand28.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Korean Fried Chicken Club Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand29.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">BBQ Chicken Club Sandwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand30.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p id="paragraph11">Grilled Chicken n Cheese Multigrain Sub</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand31.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Loaded Paneer Popcorn Sub</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand32.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Caesar Chicken Subwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand33.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Mediterranean Cottage Cheese Focaccia</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand34.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Grilled Chicken n Cheese Subwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand35.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Mushroom Corn Cheese Multigrain Sub</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand36.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Creamy Mexicano Subwich</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand37.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Sausage n Egg Scramble Multigrain Sub</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>ITALIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand38.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">BBQ Chicken Focaccia</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand39.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Cheesy Grilled Shawarma Focaccia</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="main-sand">
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand40.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Grilled Mediterranean Veg Focaccia</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>ITALIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand41.jpeg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Paneer Tikka Toastizza</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 109</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>ITALIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/sand42.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Farmhouse Toastizza</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 109</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <p class="san" id="paragraph2">Wraps</p>
+
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEDITERRANEAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps1.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Paneer Jalapeno Tikka Kubooz Wraps</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEDITERRANEAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps2.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Cheesy Chicken Popcorn Kubooz Wrap</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEDITERRANEAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps3.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Spicy Chicken And Cheese Kubooz Wrap</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEDITERRANEAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps4.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Cilantro Bbq Paneer Kubooz Wrap</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEDITERRANEAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps5.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Shawarma Chicken Kubooz Wrap</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 159</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>NORTH INDIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps6.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Ghee Roast Chicken Wrap</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>311 CAL | LOW CALORIE</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps7.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Chicken Tikka Wrap</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>422 CAL | LOW CALORIE</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps8.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Kolkata Paneer Wrap</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>INDIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/wraps9.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Shawarma Chicken Egg Wrap</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 139</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        
+            <p class="san" id="paragraph3">APPETIZERS</p>
+        
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>PAN-ASIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/app1.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Sesame Chicken Bites</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>PAN-ASIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/app2.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Honey Chicken Peppers</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>PAN-ASIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/app3.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Crispy Fried American Corn</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 139</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>ASIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/app4.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Tokyo Tossed Veggie</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>PAN-ASIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/app5.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Chilli Paneer</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>ASIAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/app6.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Singapore Chilli Chicken</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 139</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <p class="san" id="paragraph4">BURGERS AND MORE</p>
+
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/burger1.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Californian Double Chicken Burger</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEXICAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/burger2.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Pepper Mushroom Tacos</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEXICAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/burger3.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Chicken 65 Tacos</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 139</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEXICAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/burger4.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Paneer Honey Chilli Tacos</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEXICAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/burger5.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Mushroom Teriyaki Tacos</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 139</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/non-veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>CONTINENTAL</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/burger6.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p>Double Decker Fried Chicken Burger</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 139</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+           ******
+
+
+
+           <p class="san" id="paragraph5">Desserts & Beverages</p>
+
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>WORLD CUISINE</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/dess1.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Chocolate Cinnamon Roll</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEXICAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/dess2.jpg"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Homemade Chocolate-Cake</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEXICAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/dess3.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Choco Fudge Blackout Cake</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 139</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="main-sand">
+                
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>WORLD CUISINE</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/dess4.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p>Blueberry Oatmeal Cake</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sand">
+                    <div class="sand-veg-text">
+                            <div>
+                              <img class="veg-image" src="./images/veg.png"/>
+                            </div>
+                            <div class="sand-con">
+                                <p>MEXICAN</p>
+                            </div>
+                    </div>
+                    <a href="subsand.html"><img class="sand1" src="./images/dess5.JPG"/></a>
+                
+                    <div class="sand-product">
+                        <p class="pp">Dutch Truffle Cake</p>
+                    </div>
+        
+                    <div class="sand-price">
+                        <div class="sand-price-first">
+                            <p>Rs 149</p>
+                        </div>
+        
+                        <div class="sand-card">
+                            <a href="#">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+
+            </div>
+
+
+
+        </div>  <!-- whole div section end -->
+       
+    
+    
+    </div><!-- categories section list end -->
+
+
+
+
+    <!-- footer-start -->
+
+        <footer>
+            <!-- footer-panel first start -->
+            <div class="foot-panel1">
+                <ul>
+                        <p>COMPANY</p>
+                        <a href="#">FAQ</a>
+                        <a href="#">About</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Blog</a>
+                    <div id="foot-a">
+                        <div class="foot-panel-a">
+                            <a href="#">Terms</a>
+                        </div>
+                        <div class="foot-panel-b">
+                            <a href="#">Privacy</a>
+                        </div>
+                    </div> 
+                
+                </ul>
+
+           
+              <ul>
+                    <p>HELP & CONTACT</p>
+                    <a href="#"><i class="fa-solid fa-handshake-angle"></i>Help Center</a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i>Email Us</a>
+                    <a href="#"><i class="fa-solid fa-phone"></i>080-4042-4242</a>
+                </ul>
+
+
+                <ul>
+                    <p>MORE FROM US</p>
+                    <a href="#">Bulk/Party Order</a>
+                    <a href="#">Cake Order</a>
+                    <a href="freshclub.html">FreshClub</a>
+                    <a href="offers.html">Offers</a>
+                </ul>
+
+
+                <div class="subscribe">
+                    <h3>SUBSCRIBE TO OUR DROOLWORTHY NEWSLETTER</h3>
+                    <div id="emails">
+                        <input type="email" placeholder="Enter your email"/>
+                        <button type="submit"> Subscribe</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- footer-panel first end -->
+
+
+            <!-- footer-panel second start -->
+            <div class="foot-panel2">
+
+                <ul>
+                    <p>CATEGORIES</p>
+                    <a href="#">Mains</a>
+                    <a href="#">Pizzas</a>
+                    <a href="#">Salads</a>
+                    <a href="#">Desserts</a>
+                    <a href="#">Quickbites</a> 
+                </ul>
+
+
+                <ul>
+                    <p>CUISINES</p>
+                    <a href="#">Indian</a>
+                    <a href="#">Chinese</a>
+                    <a href="#">Italian</a>
+                    <a href="#">American</a>
+                </ul>
+
+                <ul>
+                    
+                    <a id="ts" href="#">Mexican</a>
+                    <a href="#">Thai</a>
+                    <a href="#">Continental</a>
+                    <a href="#">Mediterranean</a>
+                     
+                </ul>
+
+
+
+            </div>
+            <!-- footer-panel second end -->
+        </footer>
+
+    <!-- footer-end -->
+    
+    <script>
+        function highlightAndScroll(paragraphId) {
+          var selectedParagraph = document.getElementById(paragraphId);
+    
+          document.querySelectorAll('p.san').forEach(p => p.classList.remove('highlight'));
+          selectedParagraph.classList.add('highlight');
+    
+          selectedParagraph.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+    
+          // Move cursor focus to the selected paragraph
+          selectedParagraph.focus();
+    
+          // Prevent the default link behavior to avoid jumping to the top of the page
+          event.preventDefault();
+        }
+      </script>
+
+</body>
+</html>

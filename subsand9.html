@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subsand</title>
+    <link rel="stylesheet" href="styles.css"/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  
+
+</head>
+<body>
+    <div class="sub-sand-main">
+        <!-- image code -->
+        <div class="sub-sand-div">
+            <img src="./images/sand10.JPG"/>
+        </div>
+
+        
+        <!-- right-section code-->
+        <div class="sub-sand-text">
+
+            
+            <h1>Spinach Corn Whole Wheat Sandwich</h1>
+            <img src="./images/veg.png"/>
+            <a href="#">Continental</a>
+            <p class="rs-sand">Rs 119</p>
+            
+
+
+
+            <div class="item" id="item1">
+                <div class="quantity-container">
+                  <button onclick="decrementQuantity('quantity1', 119)">-</button>
+                  <input type="number" id="quantity1" value="0" readonly>
+                  <button onclick="incrementQuantity('quantity1', 119)">+</button>
+                  
+                </div><br>
+                <span>Total: <i class="fa-solid fa-indian-rupee-sign"></i><span id="total1">0.00</span></span>
+                <br><button id="addcard" onclick="addItem('Item 1', 119)">Add to Cart</button>
+              </div>
+
+
+
+           
+            <p class="sub-sand-p1">DETAILS ABOUT THIS MEAL</p>
+            <p class="sub-sand-p2">This sandwich has fresh spinach and sweet corn which are cooked in a cheesy<br> sauce,
+                stuffed between toasted bread with cheese slices giving you the best<br> snack
+                option anytime of the day!</p>
+                <i class="fa-solid fa-leaf"></i>
+                <p class="vegies">VEG</p>
+                <h3>INGREDIENTS</h3>
+                <p>Marble Bread, Cheddar, Spinach, Golden Corn, Bechamel</p>
+
+                
+            <div class="main-nut">
+                <div class="nut">
+                    <h3>NUTRITION</h3>
+                    <p class="nut1">186</p>
+                    <p class="nut2">ENERGY (KCAL)</p>
+                </div>
+
+                <div class="nut">
+                    
+                    <p class="nut1 nut111">2</p>
+                    <p class="nut2 nut222">Fat (g)</p>
+                </div>
+
+
+                <div class="nut">
+                    
+                    <p class="nut1 nut111">36</p>
+                    <p class="nut2 nut223">Carbs (g)</p>
+                </div>
+
+
+                <div class="nut">
+                     
+                    <p class="nut1 nut111">10</p>
+                    <p class="nut2 nut223">Fiber (g)</p>
+                </div>
+            </div>
+
+            <div class="nut nuttsec">
+                     
+                <p class="nut1">6</p>
+                <p class="nut2">Protein (g)</p>
+            </div>
+       
+       
+        </div>
+        <!-- right-section code end -->
+    </div>
+
+
+
+    <footer>
+        <div class="foot-panel1">
+            <ul>
+                    <p>COMPANY</p>
+                    <a href="#">FAQ</a>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                <div id="foot-a">
+                    <div class="foot-panel-a">
+                        <a href="#">Terms</a>
+                    </div>
+                    <div class="foot-panel-b">
+                        <a href="#">Privacy</a>
+                    </div>
+                </div> 
+            
+            </ul>
+
+       
+          <ul>
+                <p>HELP & CONTACT</p>
+                <a href="#"><i class="fa-solid fa-handshake-angle"></i>Help Center</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>Email Us</a>
+                <a href="#"><i class="fa-solid fa-phone"></i>080-4042-4242</a>
+            </ul>
+
+
+            <ul>
+                 <p>MORE FROM US</p>
+                <a href="#">Bulk/Party Order</a>
+                <a href="#">Cake Order</a>
+                <a href="#">FreshClub</a>
+                <a href="#">Offers</a>
+            </ul>
+
+
+            <div class="subscribe">
+                <h3>SUBSCRIBE TO OUR DROOLWORTHY NEWSLETTER</h3>
+                <div id="emails">
+                    <input type="email" placeholder="Enter your email"/>
+                    <button type="submit"> Subscribe</button>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="foot-panel2">
+
+            <ul>
+                <p>CATEGORIES</p>
+                <a href="#">Mains</a>
+                <a href="#">Pizzas</a>
+                <a href="#">Salads</a>
+                <a href="#">Desserts</a>
+                <a href="#">Quickbites</a> 
+            </ul>
+
+
+            <ul>
+                <p>CUISINES</p>
+                <a href="#">Indian</a>
+                <a href="#">Chinese</a>
+                <a href="#">Italian</a>
+                <a href="#">American</a>
+            </ul>
+
+            <ul>
+                
+                <a id="ts" href="#">Mexican</a>
+                <a href="#">Thai</a>
+                <a href="#">Continental</a>
+                <a href="#">Mediterranean</a>
+                 
+            </ul>
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        function incrementQuantity(quantityId, price) {
+          var quantityInput = document.getElementById(quantityId);
+          var quantity = parseInt(quantityInput.value, 10) + 1;
+          quantityInput.value = quantity;
+    
+          var totalId = 'total' + quantityId.slice(-1);
+          var totalElement = document.getElementById(totalId);
+          totalElement.textContent = (quantity * price).toFixed(2);
+        }
+    
+        function decrementQuantity(quantityId, price) {
+          var quantityInput = document.getElementById(quantityId);
+          var quantity = parseInt(quantityInput.value, 10) - 1;
+          if (quantity < 0) {
+            quantity = 0;
+          }
+          quantityInput.value = quantity;
+    
+          var totalId = 'total' + quantityId.slice(-1);
+          var totalElement = document.getElementById(totalId);
+          totalElement.textContent = (quantity * price).toFixed(2);
+        }
+
+      </script>
+    
+</body>
+</html>
